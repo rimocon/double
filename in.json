@@ -1,0 +1,32 @@
+{
+    "_comment": [
+        "double pendulum equation",
+        "params: k1,k2,tau1,tau2",
+        "const: M1,M2,L1,L2,G"
+    ],
+    "x0": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "params": [
+        0.0,
+        100,
+        0.0,
+        0.0
+    ],
+    "const": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        9.8066500000
+    ],
+    "xdim": 4,
+    "xrange":[0, 8.0],
+    "yrange":[-6.0, 6.0],
+    "delta":0.01,
+    "var":2,
+    "tau":5.0
+}
